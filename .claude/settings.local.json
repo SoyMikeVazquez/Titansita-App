@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(cat)",
+      "Read(//tmp/**)",
+      "Bash(cat > *)",
+      "Bash(flutter pub *)",
+      "Bash(flutter clean *)",
+      "Bash(flutter run *)",
+      "Bash(dart analyze *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(screencapture -x /tmp/workout_app.png)",
+      "Bash(pkill -f \"flutter run\")"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}
